@@ -1,3 +1,3 @@
-#Activitat 1
+# Activitat 1
 
 ## Exercici 1
