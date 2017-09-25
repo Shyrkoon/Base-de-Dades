@@ -31,7 +31,13 @@ Per comprovar el status
 /etc/mysql/my.cnf
 
 ## Exercici 4
+
+
 ## Exercici 5
+
+Busquem el arxiu  .mylogin.cnf
+Agreguem el seguüent linia: shell> mysql -u 'nom_usuari -p'password_sense_apostrof' db_name
+
 ## Exercici 6
 ## Exercici 7
 
