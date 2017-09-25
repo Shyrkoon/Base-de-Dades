@@ -29,3 +29,10 @@ Per comprovar el status
 ## Exercici 3
 
 /etc/mysql/my.cnf
+
+## Exercici 4
+## Exercici 5
+## Exercici 6
+## Exercici 7
+
+# Activitat 2
