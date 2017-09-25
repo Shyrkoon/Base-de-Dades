@@ -35,8 +35,8 @@ Per comprovar el status
 
 ## Exercici 5
 
-Busquem el arxiu  .mylogin.cnf
-Agreguem el següent linia:
+Busquem el arxiu  .mylogin.cnf <br />
+Agreguem el següent linia: <br />
 shell> mysql -u 'nom_usuari -p'password_sense_apostrof' db_name
 
 ## Exercici 6
