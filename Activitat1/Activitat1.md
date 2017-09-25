@@ -40,6 +40,9 @@ Agreguem el següent linia: <br />
 shell> mysql -u 'nom_usuari -p'password_sense_apostrof' db_name
 
 ## Exercici 6
+
+Entrem al arxiu de configuració (my.conf) <br />
+Posem el següent: port = port_que_vols_canviar
 ## Exercici 7
 
 # Activitat 2 MYSQL
