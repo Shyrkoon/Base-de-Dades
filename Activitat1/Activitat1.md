@@ -1,6 +1,6 @@
 # Activitat 1
 
-## Exercici 1
+## Instal·lació
 Per començar hem d'agafar el paquet amb la següent comanda:
 (sudo) wget https://www.percona.com/downloads/Percona-Server-5.7/Percona-Server-5.7.10-3/binary/redhat/7/x86_64/Percona-Server-5.7.10-3-r63dafaf-el7-x86_64-bundle.tar
 
@@ -11,9 +11,9 @@ rpm -ivh Percona-Server-server-57-5.7.10-3.1.el7.x86_64.rpm \
 Percona-Server-client-57-5.7.10-3.1.el7.x86_64.rpm \
 Percona-Server-shared-57-5.7.10-3.1.el7.x86_64.rpm
 
-## Exercici 2
+## Exercici 1
 
-## Exercici 3
+## Exercici 2
 Per arrancar
   service mysql start
 
@@ -26,6 +26,6 @@ Per detenir
 Per comprovar el status
   service mysql status
 
-## Exercici 4
+## Exercici 3
 
 /etc/mysql/my.cnf
