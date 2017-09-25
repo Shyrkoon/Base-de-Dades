@@ -14,7 +14,6 @@ Percona-Server-shared-57-5.7.10-3.1.el7.x86_64.rpm
 ## Exercici 2
 
 ## Exercici 3
-
 Per arrancar
   service mysql start
 
@@ -26,3 +25,7 @@ Per detenir
  
 Per comprovar el status
   service mysql status
+
+## Exercici 4
+
+/etc/mysql/my.cnf
