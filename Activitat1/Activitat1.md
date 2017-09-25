@@ -35,4 +35,17 @@ Per comprovar el status
 ## Exercici 6
 ## Exercici 7
 
-# Activitat 2
+# Activitat 2 MYSQL
+
+## Instal·lació
+
+## Exercici 1
+## Exercici 2
+## Exercici 3
+## Exercici 4
+## Exercici 5
+## Exercici 6
+## Exercici 7
+## Exercici 8
+## Exercici 9
+## Exercici 10
