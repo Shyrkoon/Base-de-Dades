@@ -84,6 +84,9 @@ Posem el següent: port = port_que_vols_canviar
 
 ## Instal·lació
 
+wget https://dev.mysql.com/get/archives/mysql-5.7/mysql-5.7.14.tar.gz
+
+
 ## Exercici 1
 ## Exercici 2
 ## Exercici 3
