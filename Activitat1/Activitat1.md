@@ -13,6 +13,24 @@ Percona-Server-shared-57-5.7.10-3.1.el7.x86_64.rpm
 
 ## Exercici 1
 
+Per poder trobar la password del root tenim que fer un cat del fitxer log del mysql de percona y buscar exactament : temporary password
+
+!tyiV9Prj?_Y
+
+Un cop sabem la contrasenya tenim que accedir a la base de dades utilitzant la següent comanda:
+
+Mysql –h localhost –u root –p
+
+Ara el que tenim que modificar la política de seguretat a LOW
+SET validate_password_policy=’LOW’
+Ara tenim que modificar la llargada de la contrasenya, ja que en LOW el mínim és de 8 caracters i la contrasenya proposada en té 6
+
+Llavors el que tenim que fer és el següent:
+SET validate_password_length=6
+
+Ara ja podrem canviar a contrasenya del root a patata utilitzat aquesta línia:
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'patata'
+
 
 ## Exercici 2
 Per arrancar
@@ -35,8 +53,6 @@ Per comprovar el status
 
 
 ## Exercici 5
-CREATE USER 'asix'@'localhost'
-  IDENTIFIED BY 'patata' PASSWORD EXPIRE;
 
 SET GLOBAL validate_password_policy=LOW;
 
