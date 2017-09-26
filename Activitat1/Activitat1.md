@@ -55,8 +55,9 @@ Per comprovar el status
 
 ## Exercici 3
 
-El ftxer de configruació es diu m.cnf i es troba a:
-/etc/mysql/my.cnf
+El ftxer de configruació es diu my.cnf i es troba a:
+
+/etc/my.cnf
 
 ## Exercici 4
 
