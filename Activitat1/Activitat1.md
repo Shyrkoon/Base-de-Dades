@@ -62,7 +62,6 @@ Per comprovar el status
 
 SET GLOBAL validate_password_policy=LOW;)
 
-(./Imatges/Captura.PNG)
 
 SET GLOBAL validate_password_length=6;
 
