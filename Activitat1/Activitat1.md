@@ -83,7 +83,7 @@ Posem el següent: port = port_que_vols_canviar
 # Activitat 2 MYSQL
 
 ## Instal·lació
-
+Primer hem de descargar el repositori amb la següent comanda: 
 wget https://dev.mysql.com/get/archives/mysql-5.7/mysql-5.7.14.tar.gz
 
 
