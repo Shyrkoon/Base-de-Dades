@@ -15,7 +15,7 @@ Percona-Server-shared-57-5.7.10-3.1.el7.x86_64.rpm
 
 Per poder trobar la password del root tenim que fer un cat del fitxer log del mysql de percona y buscar exactament : temporary password
 
-![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/2017-09-19%2019_26_22-ACtividad1%20Percona%20%5BCorriendo%5D%20-%20Oracle%20VM%20VirtualBox.png)
+
 
 Un cop sabem la contrasenya tenim que accedir a la base de dades utilitzant la següent comanda:
 
@@ -31,7 +31,6 @@ SET validate_password_length=6
 Ara ja podrem canviar a contrasenya del root a patata utilitzat aquesta línia:
 ALTER USER 'root'@'localhost' IDENTIFIED BY 'patata'
 
-![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/Captura3.PNG)
 
 ## Exercici 2
 Per arrancar
@@ -45,8 +44,6 @@ Per detenir
  
 Per comprovar el status
   service mysql status
-  
-![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/2017-09-19%2019_07_48-ACtividad1%20Percona%20%5BCorriendo%5D%20-%20Oracle%20VM%20VirtualBox.png)
 
 ## Exercici 3
 
@@ -59,11 +56,11 @@ Per comprovar el status
 
 SET GLOBAL validate_password_policy=LOW;)
 
-(./Imatges/Captura.PNG)
 
-SET GLOBAL validate_password_length=6;
 
-SET PASSWORD = PASSWORD('patata');
+>SET GLOBAL validate_password_length=6;
+
+> SET PASSWORD = PASSWORD('patata');
 
 ## Exercici 6
 
