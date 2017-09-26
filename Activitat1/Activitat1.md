@@ -13,6 +13,7 @@ Percona-Server-shared-57-5.7.10-3.1.el7.x86_64.rpm
 
 ## Exercici 1
 
+
 ## Exercici 2
 Per arrancar
   service mysql start
