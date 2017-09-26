@@ -31,6 +31,7 @@ SET validate_password_length=6
 Ara ja podrem canviar a contrasenya del root a patata utilitzat aquesta línia:
 ALTER USER 'root'@'localhost' IDENTIFIED BY 'patata'
 
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/Captura3.PNG)
 
 ## Exercici 2
 Per arrancar
