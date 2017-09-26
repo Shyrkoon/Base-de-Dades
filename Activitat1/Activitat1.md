@@ -15,7 +15,7 @@ Percona-Server-shared-57-5.7.10-3.1.el7.x86_64.rpm
 
 Per poder trobar la password del root tenim que fer un cat del fitxer log del mysql de percona y buscar exactament : temporary password
 
-![captura](Base-de-dades/Activitat1/Imatges/Captura3.PNG)
+![captura](https://octodex.github.com/images/yaktocat.png)
 
 Un cop sabem la contrasenya tenim que accedir a la base de dades utilitzant la següent comanda:
 
@@ -56,7 +56,7 @@ Per comprovar el status
 
 SET GLOBAL validate_password_policy=LOW;)
 
-(https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/Captura.PNG)
+[[https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/Captura.PNG]]
 
 SET GLOBAL validate_password_length=6;
 
