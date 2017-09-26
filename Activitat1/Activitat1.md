@@ -36,9 +36,11 @@ Per comprovar el status
 
 ## Exercici 5
 
-Busquem el arxiu  .mylogin.cnf <br />
-Agreguem el següent linia: <br />
-shell> mysql -u 'nom_usuari -p'password_sense_apostrof' db_name
+SET GLOBAL validate_password_policy=LOW;
+
+SET GLOBAL validate_password_length=6;
+
+SET PASSWORD = PASSWORD('patata');
 
 ## Exercici 6
 
