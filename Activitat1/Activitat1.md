@@ -54,7 +54,9 @@ Per comprovar el status
 
 ## Exercici 5
 
-SET GLOBAL validate_password_policy=LOW;
+SET GLOBAL validate_password_policy=LOW;)
+
+(https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/Captura.PNG)
 
 SET GLOBAL validate_password_length=6;
 
