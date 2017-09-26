@@ -45,6 +45,8 @@ Per detenir
  
 Per comprovar el status
   service mysql status
+  
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/2017-09-19%2019_07_48-ACtividad1%20Percona%20%5BCorriendo%5D%20-%20Oracle%20VM%20VirtualBox.png)
 
 ## Exercici 3
 
