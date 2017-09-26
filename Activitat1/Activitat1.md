@@ -35,6 +35,8 @@ Per comprovar el status
 
 
 ## Exercici 5
+CREATE USER 'asix'@'localhost'
+  IDENTIFIED BY 'patata' PASSWORD EXPIRE;
 
 SET GLOBAL validate_password_policy=LOW;
 
