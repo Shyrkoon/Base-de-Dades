@@ -61,6 +61,9 @@ El ftxer de configruació es diu my.cnf i es troba a:
 
 ## Exercici 4
 
+Els fitxers de la base de dades es troben normalment a:
+
+/var/lib/mysql
 
 ## Exercici 5
 
