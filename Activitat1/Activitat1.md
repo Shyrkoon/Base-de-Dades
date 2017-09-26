@@ -15,7 +15,7 @@ Percona-Server-shared-57-5.7.10-3.1.el7.x86_64.rpm
 
 Per poder trobar la password del root tenim que fer un cat del fitxer log del mysql de percona y buscar exactament : temporary password
 
-
+![captura](https://gyazo.com/22fbbc86c696d84c88456db64f96e4cd)
 
 Un cop sabem la contrasenya tenim que accedir a la base de dades utilitzant la següent comanda:
 
@@ -47,17 +47,16 @@ Per comprovar el status
 
 ## Exercici 3
 
-L'arxiu es diu my.cnf i estroba a la ruta:
 /etc/mysql/my.cnf
 
 ## Exercici 4
 
-Es troben els fitxers de dades a:
-/var/lib/mysql
 
 ## Exercici 5
 
-SET GLOBAL validate_password_policy=LOW;
+SET GLOBAL validate_password_policy=LOW;)
+
+(./Imatges/Captura.PNG)
 
 SET GLOBAL validate_password_length=6;
 
@@ -67,6 +66,7 @@ SET PASSWORD = PASSWORD('patata');
 
 Entrem al arxiu de configuració (my.conf) <br />
 Posem el següent: port = port_que_vols_canviar
+## Exercici 7
 
 # Activitat 2 MYSQL
 
