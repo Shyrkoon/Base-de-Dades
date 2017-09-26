@@ -78,7 +78,7 @@ SET PASSWORD = PASSWORD('patata');
 
 Entrem al arxiu de configuració (my.conf) <br />
 Posem el següent: port = port_que_vols_canviar
-## Exercici 7
+
 
 # Activitat 2 MYSQL
 
