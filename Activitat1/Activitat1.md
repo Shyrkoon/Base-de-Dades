@@ -15,7 +15,7 @@ Percona-Server-shared-57-5.7.10-3.1.el7.x86_64.rpm
 
 Per poder trobar la password del root tenim que fer un cat del fitxer log del mysql de percona y buscar exactament : temporary password
 
-!tyiV9Prj?_Y
+![captura](/Imatges/Captura3.PNG)
 
 Un cop sabem la contrasenya tenim que accedir a la base de dades utilitzant la següent comanda:
 
