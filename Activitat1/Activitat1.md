@@ -31,6 +31,8 @@ Ara tenim que modificar la llargada de la contrasenya, ja que en LOW el mínim �
 Llavors el que tenim que fer és el següent:
 SET validate_password_length=6
 
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/Captura.PNG)
+
 Ara ja podrem canviar a contrasenya del root a patata utilitzat aquesta línia:
 ALTER USER 'root'@'localhost' IDENTIFIED BY 'patata'
 
