@@ -56,7 +56,7 @@ Per comprovar el status
 
 SET GLOBAL validate_password_policy=LOW;)
 
-[[https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/Captura.PNG]]
+[[https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/Captura.PNG|alt=octocat]]
 
 SET GLOBAL validate_password_length=6;
 
