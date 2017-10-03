@@ -79,10 +79,24 @@ Posem el següent: port = port_que_vols_canviar
 
 ## Instal·lació
 
-Primer de tot, ens hem entrat a [l'enllaç que ens ha proporcionat el nostre profesor.](https://docs.mongodb.com/master/tutorial/install-mongodb-on-red-hat/)
+Primer de tot, hem entrat a [l'enllaç que ens ha proporcionat el nostre profesor.](https://docs.mongodb.com/master/tutorial/install-mongodb-on-red-hat/)
 
 Ara tenim que seguir el manual. Primer de tot tenim que afegir el repositori de MongoDB a la nostra llista de repositoris. Tenim que accedir al directori on estan els repositoris i crear-ne un per fer aquesta instal·lació
+
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/1%20repo.png)
+
+Ara un cop afegit el repositori tenim que fer una instal·lació com qualsevol altre amb la comanda yum, en aquest cas:
+yum install mongodb-org
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/2-1%20install.png)
+
+Seguint el manual hem tingut un problema que és el següent:
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/3%20semanage.png)
+
+Per resoldre el problema he seguit el següent [MANUAL](https://www.ostechnix.com/linux-troubleshooting-semanage-command-not-found-in-centos-7rhel-7/)
+
+
 
 
 
