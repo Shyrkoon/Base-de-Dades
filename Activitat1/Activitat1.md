@@ -120,11 +120,11 @@ un cop que hem iniciat el procès, per accedir solament tenim que escriure en el
 
 Ara mateix el servei, el tindrem que iniciar manualment, perque el servei s'iniciï cada vegada que inciem el nostre servidor tindrem que fer el següent
 
-Comproació de que el dimoni no esta actiu:
+Comprovació de que el dimoni no esta actiu:
 
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/9%20extra%20servicio.png)
 
-Activar ddimoni
+Activar dimoni
 
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/9-1%20extra%20servicio%20automatico.png)
 
