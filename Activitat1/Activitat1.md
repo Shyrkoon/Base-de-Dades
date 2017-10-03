@@ -96,6 +96,38 @@ Seguint el manual hem tingut un problema que és el següent:
 
 Per resoldre el problema he seguit el següent [MANUAL](https://www.ostechnix.com/linux-troubleshooting-semanage-command-not-found-in-centos-7rhel-7/)
 
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/3-1%20semanage.png)
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/3-2%20ssemanage.png)
+
+Ara si continuem amb la guia d'instal·lació de Mongo ja no ens salta l'error:
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/4%20semanage.png)
+
+Ara tenim que deshabilitar el SELinux, perque no bloquegi el port qque utilitza la base de dades. Reiniciem la maquina perque agafi la configuració, tornem a modificar el mateix arxiu per posar-ho en moded permisiu.
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/5%20selinux%20disa.png)
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/6%20selinux%20permi.png)
+
+Finalment ara ja podem arrancar el servei normalment.
+
+un cop que hem iniciat el procès, per accedir solament tenim que escriure en el terminal mongo.
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/8%20entrar%20al%20mongo.png)
+
+## EXTRA
+
+Ara mateix el servei, el tindrem que iniciar manualment, perque el servei s'iniciï cada vegada que inciem el nostre servidor tindrem que fer el següent
+
+Comproació de que el dimoni no esta actiu:
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/9%20extra%20servicio.png)
+
+Activar ddimoni
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/9-1%20extra%20servicio%20automatico.png)
+
 
 
 
