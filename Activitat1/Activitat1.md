@@ -67,12 +67,7 @@ Els fitxers de la base de dades es troben normalment a:
 
 ## Exercici 5
 
-SET GLOBAL validate_password_policy=LOW;)
-
-
-SET GLOBAL validate_password_length=6;
-
-SET PASSWORD = PASSWORD('patata');
+FALTA POR HACER!!!!!!!!!!!!
 
 ## Exercici 6
 
@@ -80,20 +75,15 @@ Entrem al arxiu de configuració (my.conf) <br />
 Posem el següent: port = port_que_vols_canviar
 
 
-# Activitat 2 MYSQL
+# Activitat 2 MongoDB
 
 ## Instal·lació
-Primer hem de descargar el repositori amb la següent comanda: 
-wget https://dev.mysql.com/get/archives/mysql-5.7/mysql-5.7.14.tar.gz
+
+Primer de tot, ens hem entrat a [l'enllaç que ens ha proporcionat el nostre profesor.](https://docs.mongodb.com/master/tutorial/install-mongodb-on-red-hat/)
+
+Ara tenim que seguir el manual. Primer de tot tenim que afegir el repositori de MongoDB a la nostra llista de repositoris. Tenim que accedir al directori on estan els repositoris i crear-ne un per fer aquesta instal·lació
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/1%20repo.png)
 
 
-## Exercici 1
-## Exercici 2
-## Exercici 3
-## Exercici 4
-## Exercici 5
-## Exercici 6
-## Exercici 7
-## Exercici 8
-## Exercici 9
-## Exercici 10
+
+
