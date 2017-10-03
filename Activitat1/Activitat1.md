@@ -120,6 +120,8 @@ un cop que hem iniciat el procès, per accedir solament tenim que escriure en el
 
 Ara mateix el servei, el tindrem que iniciar manualment, perque el servei s'iniciï cada vegada que inciem el nostre servidor tindrem que fer el següent
 
+He estat mirant un altre manual de la comunitat [Digital Ocean.](https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-centos-7)
+
 Comprovació de que el dimoni no esta actiu:
 
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/9%20extra%20servicio.png)
