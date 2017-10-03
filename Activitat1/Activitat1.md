@@ -104,7 +104,7 @@ Ara si continuem amb la guia d'instal·lació de Mongo ja no ens salta l'error:
 
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/4%20semanage.png)
 
-Ara tenim que deshabilitar el SELinux, perque no bloquegi el port qque utilitza la base de dades. Reiniciem la maquina perque agafi la configuració, tornem a modificar el mateix arxiu per posar-ho en moded permisiu.
+Ara tenim que deshabilitar el SELinux, perque no bloquegi el port que utilitza la base de dades. Reiniciem la maquina perque agafi la configuració, tornem a modificar el mateix arxiu per posar-ho en moded permisiu.
 
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/5%20selinux%20disa.png)
 
