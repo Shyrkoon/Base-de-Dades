@@ -68,10 +68,28 @@ Els fitxers de la base de dades es troben normalment a:
 ## Exercici 5
 
 Primer hem de crear l'usuari ASIX al CentOS:
+
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/ex%205-1.png)
 
 A continuació li fiquem la contrasenya a l'usuari:
+
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/ex%205-2.png)
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/ex%205-3.png)
+
+Ara creem l'usuari ASIX dins del mysql:
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/ex%205-4.png)
+
+A continuació hem de crear un fitxer per guardar l'usuari i la contrasenya que utilitzarà per defecte el mysql:
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/ex%205-5.png)
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/ex%205-6.png)
+
+Ara podem comprovar que si només fiquem mysql es connecta amb les dades que tenim a dins del fitxer:
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/ex%205-7.png)
 
 ## Exercici 6
 
