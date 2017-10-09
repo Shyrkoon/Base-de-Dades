@@ -67,7 +67,11 @@ Els fitxers de la base de dades es troben normalment a:
 
 ## Exercici 5
 
-FALTA POR HACER!!!!!!!!!!!!
+Primer hem de crear l'usuari ASIX al CentOS:
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/ex%205-1.png)
+
+A continuació li fiquem la contrasenya a l'usuari:
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/ex%205-2.png)
 
 ## Exercici 6
 
