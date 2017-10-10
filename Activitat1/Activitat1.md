@@ -40,9 +40,28 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'patata'
 
 
 Ara farem una securització de la instal·lació.
-EL programa que utilitzarem ja vé amb els paquets del Mysql. Només hem d'executar la següent comanda:
+El programa que utilitzarem ja vé amb els paquets del Mysql. Només hem d'executar la següent comanda: mysql_secure_installation
 
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/Securitzacio1.PNG)
+
+Primer ens demana si volem canviar la password de l'administrador.
+A continuació ens demanarà si volem eliminar tots els usuaris que són anònims.
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/Securitzacio2.PNG)
+
+A continuació podrem desactivar l'inici remot de l'usuari ROOT.
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/Securitzacio3.PNG)
+
+En el següent pas podrem eliminar la base de dades 'test' a la qual tothom té accés. 
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/Securitzacio4.PNG)
+
+Per acabar ens demana que necessita reiniciar la taula de privilegis per tal de que tots els canvis que hem fet tinguin efecte.
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/Securitzacio5.PNG)
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/Securitzacio6.PNG)
 
 
 
