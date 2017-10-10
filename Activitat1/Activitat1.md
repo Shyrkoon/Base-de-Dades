@@ -44,7 +44,7 @@ El programa que utilitzarem ja vé amb els paquets del Mysql. Només hem d'execu
 
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/Securitzacio1.PNG)
 
-Primer ens demana si volem canviar la password de l'administrador.
+Primer ens demana si volem canviar la password de l'usuari root.
 A continuació ens demanarà si volem eliminar tots els usuaris que són anònims.
 
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/Securitzacio2.PNG)
