@@ -38,6 +38,14 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'patata'
 
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/Captura3.PNG)
 
+
+Ara farem una securització de la instal·lació.
+EL programa que utilitzarem ja vé amb els paquets del Mysql. Només hem d'executar la següent comanda:
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat1/Imatges/Securitzacio1.PNG)
+
+
+
 ## Exercici 2
 Per arrancar
   service mysql start
