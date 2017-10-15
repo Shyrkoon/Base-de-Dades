@@ -56,3 +56,8 @@ Per veure el contingut del fitxer hem d'executar la sgüent comanda
 
 ## Exercici 2
 
+- Comprova l'estat de les opcions de log que has utilitzat mitjançant una sessió de mysql client.
+
+Aquest es el resultat:
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%20ej%202%20v1.png)
