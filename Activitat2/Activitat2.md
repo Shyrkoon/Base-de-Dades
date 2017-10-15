@@ -23,9 +23,16 @@ Només tenim el log d’errors activat. Ho he pogut veure executant la comanda S
 
 Per activar el general log primer he creat una carpeta a /var/log i le he cambiat el propietari de la carpeta.
 
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%20ej%203%201.png)
+
 Despres he afegit la següent informació al fitxer my.cnf.
 
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%20ej%203%202.png)
+
 Per acabar hem de reiniciar el servei de mysql i activar el log a dins del mysql.
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%20ej%203%205.png)
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%20ej%203%203.png)
 
 
 A continuació, per activar els logs de slow_queries hem de fer el següent:
