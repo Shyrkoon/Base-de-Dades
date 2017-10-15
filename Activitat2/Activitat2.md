@@ -32,6 +32,7 @@ Despres he afegit la següent informació al fitxer my.cnf.
 Per acabar hem de reiniciar el servei de mysql i activar el log a dins del mysql.
 
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%20ej%203%205.png)
+
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%20ej%203%203.png)
 
 
