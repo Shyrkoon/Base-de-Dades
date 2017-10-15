@@ -8,6 +8,7 @@ Per canviar el port hem de afegir les següents linies dins de /etc/my.cnf.
 [client]
 port =  3011
 
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/port.png)
 
 - Quins són els logs activats per defecte? Com ho has fet per comprovar-ho?
 
