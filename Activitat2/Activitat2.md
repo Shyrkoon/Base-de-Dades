@@ -55,3 +55,4 @@ Per veure el contingut del fitxer hem d'executar la sgüent comanda
 
 
 ## Exercici 2
+
