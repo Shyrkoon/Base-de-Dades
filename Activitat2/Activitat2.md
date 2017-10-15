@@ -22,3 +22,12 @@ Per activar el general log primer he creat una carpeta a /var/log i le he cambia
 Despres he afegit la següent informació al fitxer my.cnf.
 
 Per acabar hem de reiniciar el servei de mysql i activar el log a dins del mysql.
+
+
+A continuació, per activar els logs de slow_queries hem de fer el següent:
+Només cal ficar la següent configuració al fitxer my.cnf
+
+Per veure el contingut del fitxer hem d'executar la sgüent comanda
+
+
+## Exercici 2
