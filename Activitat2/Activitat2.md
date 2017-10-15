@@ -4,7 +4,7 @@
 
 - Canvia el port per defecte de connexió al 3011.
 
-Per canviar el port primer hem de crear un arxiu amb les següents dades iguardar-ho dins de /etc/percona-server.conf.d/mysqld.cnf
+Per canviar el port hem de afegir les següents linies dins de /etc/my.cnf.
 [client]
 port =  3011
 
