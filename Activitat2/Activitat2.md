@@ -47,7 +47,7 @@ Només cal ficar la següent configuració al fitxer my.cnf
 
 Per últim, per els logs binaris, només hem de ficar el següent a dins del fitxer my.cnf:
 
-![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%20ej%203%208.png)
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%20ej%203%208%20V2.png)
 
 Per veure el contingut del fitxer hem d'executar la sgüent comanda
 
