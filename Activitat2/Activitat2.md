@@ -39,6 +39,11 @@ Per acabar hem de reiniciar el servei de mysql i activar el log a dins del mysql
 A continuació, per activar els logs de slow_queries hem de fer el següent:
 Només cal ficar la següent configuració al fitxer my.cnf
 
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%20ej%203%204.png)
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%20ej%203%206.png)
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%20ej%203%207.png)
 
 Per últim, per els logs binaris, només hem de ficar el següent a dins del fitxer my.cnf:
 
