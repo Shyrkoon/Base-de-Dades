@@ -61,3 +61,9 @@ Per veure el contingut del fitxer hem d'executar la sgüent comanda
 Aquest es el resultat:
 
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%20ej%202%20v1.png)
+
+
+## Exercici 3
+
+- Modifica el fitxer de configuració i desactiva els logs de binary, slow query i genral. Nota: Simplament desactiva'ls no borris altres paràmetres com la ruta dels fitxers, etc...
+
