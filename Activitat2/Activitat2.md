@@ -2,19 +2,19 @@
 
 ## Exercici 1
 
-•	Canvia el port per defecte de connexió al 3011.
+- Canvia el port per defecte de connexió al 3011.
 
 Per canviar el port primer hem de crear un arxiu amb les següents dades iguardar-ho dins de /etc/percona-server.conf.d/mysqld.cnf
-	[client]
-	port =  3011
+[client]
+port =  3011
 
 
-•	Quins són els logs activats per defecte? Com ho has fet per comprovar-ho?
+- Quins són els logs activats per defecte? Com ho has fet per comprovar-ho?
 
 Només tenim el log d’errors activat. Ho he pogut veure executant la comanda SHOW GLOBAL VARIABLES LIKE ‘%log’;. També es pot veure al fitxer de configuració de l’anterior apartat.
 
 
-•	Activa si no ho estan i indica les configuracions necessàries per activar-los. Indica les rutes dels fitxer de log de Binary, Slow Query i General. Quins paràmetres has modificat?
+- Activa si no ho estan i indica les configuracions necessàries per activar-los. Indica les rutes dels fitxer de log de Binary, Slow Query i General. Quins paràmetres has modificat?
 
 
 Per activar el general log primer he creat una carpeta a /var/log i le he cambiat el propietari de la carpeta.
