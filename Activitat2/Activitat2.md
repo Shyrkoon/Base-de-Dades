@@ -67,3 +67,18 @@ Aquest es el resultat:
 
 - Modifica el fitxer de configuració i desactiva els logs de binary, slow query i genral. Nota: Simplament desactiva'ls no borris altres paràmetres com la ruta dels fitxers, etc...
 
+
+## Exercici 4
+- 4.	Activa la els logs en temps d'execució mitjançant la sentència SET GLOBAL. També canvia el destí de log general a una taula (paràmetre log_output). Quines són les sentències que has utilitzat? A quina taula registres els logs general?
+
+## Exercici 5
+
+
+## Exercici 6
+
+
+## Exercici 7
+
+
+## Exercici 8
+
