@@ -73,16 +73,16 @@ Aquest es el resultat:
 
 ## Exercici 5
 - Carrega la BD Sakila localitzada a la web de
-1.	Descarrega't el fitxer sakila-schema.sql del Moodle.
-2.	carrega la BD dins del MySQL utilitzant la sentència:
+1. Descarrega't el fitxer sakila-schema.sql del Moodle.
+2. Carrega la BD dins del MySQL utilitzant la sentència:
 mysql> SOURCE <ruta_fitxer>/sakila-schema.sql;
 
 
 ## Exercici 6
 - Compte el numero de sentències CREATE TABLE dins del general log mitjançant:
-		mysql> SELECT COUNT(*)
-				FROM mysql.general_log
-			  WHERE argument LIKE 'CREATE TABLE%';
+mysql> SELECT COUNT(*)
+	FROM mysql.general_log
+	WHERE argument LIKE 'CREATE TABLE%';
 
 
 ## Exercici 7
@@ -90,7 +90,7 @@ mysql> SOURCE <ruta_fitxer>/sakila-schema.sql;
 
 
 ## Exercici 8
-- 8.	Assegura't que el Binary Log estigui activat i borra tots els logs anteriors mitjançant la sentència RESET MASTER.
+- Assegura't que el Binary Log estigui activat i borra tots els logs anteriors mitjançant la sentència RESET MASTER.
 •	Crea i borra una base de dades anomenada foo. Utilitza la sentències:
 		mysql> CREATE DATABASE foo;
 		mysql> DROP DATABASE foo;
