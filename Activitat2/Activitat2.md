@@ -69,9 +69,13 @@ Aquest es el resultat:
 
 
 ## Exercici 4
-- 4.	Activa la els logs en temps d'execució mitjançant la sentència SET GLOBAL. També canvia el destí de log general a una taula (paràmetre log_output). Quines són les sentències que has utilitzat? A quina taula registres els logs general?
+- Activa la els logs en temps d'execució mitjançant la sentència SET GLOBAL. També canvia el destí de log general a una taula (paràmetre log_output). Quines són les sentències que has utilitzat? A quina taula registres els logs general?
 
 ## Exercici 5
+- Carrega la BD Sakila localitzada a la web de
+1.	Descarrega't el fitxer sakila-schema.sql del Moodle.
+2.	carrega la BD dins del MySQL utilitzant la sentència:
+mysql> SOURCE <ruta_fitxer>/sakila-schema.sql;
 
 
 ## Exercici 6
