@@ -86,7 +86,26 @@ mysql> SOURCE <ruta_fitxer>/sakila-schema.sql;
 
 
 ## Exercici 7
+- Executa una query mitjançant la funció SLEEP(11) per tal de que es guardi en el log de Slow Query. Mostra el contingut del log demostrant-ho.
 
 
 ## Exercici 8
+- 8.	Assegura't que el Binary Log estigui activat i borra tots els logs anteriors mitjançant la sentència RESET MASTER.
+•	Crea i borra una base de dades anomenada foo. Utilitza la sentències:
+		mysql> CREATE DATABASE foo;
+		mysql> DROP DATABASE foo;
+
+•	Mitjançant la sentència SHOW BINLOG EVENTS llista els events i comprova les sentències anteriors en quin fitxer de log estan.
+
+•	Realitza un Rotate log mitjançant la sentència FLUSH LOGS
+
+•	Crea i borra una altra base de dades com l'exemple anteior del foo. Però en aquest cas anomena la base de dades bar
+
+•	Llista tots els fitxers de log i els últims canvis mitjançant la sentència SHOW. Quina sentència has utilitzat? Mostra'n el resultat.
+
+•	Borra el primer binary log. Quina sentència has utilitzat?
+
+•	Utilitza el programa mysqlbinlog per mostrar el fitxer mysql-bin.000002
+◦	Quin és el seu contingut?
+◦	Quin número d'event ha sigut el de la creació de la base de dades bar?
 
