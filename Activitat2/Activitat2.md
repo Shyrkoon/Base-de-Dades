@@ -79,6 +79,10 @@ mysql> SOURCE <ruta_fitxer>/sakila-schema.sql;
 
 
 ## Exercici 6
+- Compte el numero de sentències CREATE TABLE dins del general log mitjançant:
+		mysql> SELECT COUNT(*)
+				FROM mysql.general_log
+			  WHERE argument LIKE 'CREATE TABLE%';
 
 
 ## Exercici 7
