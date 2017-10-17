@@ -94,9 +94,13 @@ A quina taula registres els logs general?
 ## Exercici 5
 - Carrega la BD Sakila localitzada a la web de
 1. Descarrega't el fitxer sakila-schema.sql del Moodle.
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%205%203.png)
+
 2. Carrega la BD dins del MySQL utilitzant la sentència:
 mysql> SOURCE <ruta_fitxer>/sakila-schema.sql;
 
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%205%202.png)
 
 ## Exercici 6
 - Compte el numero de sentències CREATE TABLE dins del general log mitjançant:
@@ -104,31 +108,54 @@ mysql> SELECT COUNT(*)
 	FROM mysql.general_log
 	WHERE argument LIKE 'CREATE TABLE%';
 
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%206%201.png)
 
 ## Exercici 7
 - Executa una query mitjançant la funció SLEEP(11) per tal de que es guardi en el log de Slow Query. Mostra el contingut del log demostrant-ho.
 
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%207%201.png)
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%207%202.png)
 
 ## Exercici 8
 - Assegura't que el Binary Log estigui activat i borra tots els logs anteriors mitjançant la sentència RESET MASTER.
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%208%201.png)
+
 •	Crea i borra una base de dades anomenada foo. Utilitza la sentències:
 		mysql> CREATE DATABASE foo;
 		mysql> DROP DATABASE foo;
 
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%208%202.png)
+
 •	Mitjançant la sentència SHOW BINLOG EVENTS llista els events i comprova les sentències anteriors en quin fitxer de log estan.
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%208%203.png)
 
 •	Realitza un Rotate log mitjançant la sentència FLUSH LOGS
 
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%208%204.png)
+
 •	Crea i borra una altra base de dades com l'exemple anteior del foo. Però en aquest cas anomena la base de dades bar
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%208%205.png)
 
 •	Llista tots els fitxers de log i els últims canvis mitjançant la sentència SHOW. Quina sentència has utilitzat? Mostra'n el resultat.
 
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%208%206.png)
+
 •	Borra el primer binary log. Quina sentència has utilitzat?
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%208%207.png)
 
 •	Utilitza el programa mysqlbinlog per mostrar el fitxer mysql-bin.000002
 ◦	Quin és el seu contingut?
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%208%208.png)
+
 ◦	Quin número d'event ha sigut el de la creació de la base de dades bar?
 
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%208%209.png)
 
  ## CONFIGURACIÓ DEL SERVIDOR PERCONA SERVER PER REALITZAR CONNEXIONS SEGURES SOBRE SSL. (3 punts)
 
