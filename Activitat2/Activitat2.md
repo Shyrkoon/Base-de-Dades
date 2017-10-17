@@ -62,11 +62,15 @@ Aquest es el resultat:
 
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%20ej%202%20v1.png)
 
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%202%202.png)
 
 ## Exercici 3
 
 - Modifica el fitxer de configuració i desactiva els logs de binary, slow query i genral. Nota: Simplament desactiva'ls no borris altres paràmetres com la ruta dels fitxers, etc...
 
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%203%201.png)
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%203%202.png)
 
 ## Exercici 4
 - Activa la els logs en temps d'execució mitjançant la sentència SET GLOBAL. També canvia el destí de log general a una taula (paràmetre log_output). Quines són les sentències que has utilitzat? A quina taula registres els logs general?
