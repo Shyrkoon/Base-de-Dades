@@ -109,3 +109,6 @@ mysql> SELECT COUNT(*)
 ◦	Quin és el seu contingut?
 ◦	Quin número d'event ha sigut el de la creació de la base de dades bar?
 
+
+ ## CONFIGURACIÓ DEL SERVIDOR PERCONA SERVER PER REALITZAR CONNEXIONS SEGURES SOBRE SSL. (3 punts)
+
