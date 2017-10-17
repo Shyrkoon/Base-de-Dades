@@ -75,6 +75,20 @@ Aquest es el resultat:
 ## Exercici 4
 - Activa la els logs en temps d'execució mitjançant la sentència SET GLOBAL. També canvia el destí de log general a una taula (paràmetre log_output). Quines són les sentències que has utilitzat? A quina taula registres els logs general?
 
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%204%201.png)
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%204%202.png)
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%204%203.png)
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%204%204.png)
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%204%205.png)
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%204%206.png)
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%204%207.png)
+
 ## Exercici 5
 - Carrega la BD Sakila localitzada a la web de
 1. Descarrega't el fitxer sakila-schema.sql del Moodle.
