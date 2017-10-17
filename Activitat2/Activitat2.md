@@ -73,7 +73,7 @@ Aquest es el resultat:
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%203%202.png)
 
 ## Exercici 4
-- Activa la els logs en temps d'execució mitjançant la sentència SET GLOBAL. També canvia el destí de log general a una taula (paràmetre log_output). Quines són les sentències que has utilitzat? A quina taula registres els logs general?
+- Activa la els logs en temps d'execució mitjançant la sentència SET GLOBAL. També canvia el destí de log general a una taula (paràmetre log_output). Quines són les sentències que has utilitzat? 
 
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%204%201.png)
 
@@ -86,6 +86,8 @@ Aquest es el resultat:
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%204%205.png)
 
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%204%206.png)
+
+A quina taula registres els logs general?
 
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%204%207.png)
 
