@@ -159,3 +159,9 @@ El 219.
 
  ## CONFIGURACIÓ DEL SERVIDOR PERCONA SERVER PER REALITZAR CONNEXIONS SEGURES SOBRE SSL. (3 punts)
 
+
+paginas usadas
+
+https://www.percona.com/blog/2017/06/27/ssl-connections-in-mysql-5-7/
+
+https://dev.mysql.com/doc/refman/5.7/en/using-encrypted-connections.html#using-encrypted-connections-server-side-configuration
