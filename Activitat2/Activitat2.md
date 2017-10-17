@@ -154,7 +154,7 @@ mysql> SELECT COUNT(*)
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%208%208.png)
 
 ◦	Quin número d'event ha sigut el de la creació de la base de dades bar?
-
+El 219.
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/foto%208%209.png)
 
  ## CONFIGURACIÓ DEL SERVIDOR PERCONA SERVER PER REALITZAR CONNEXIONS SEGURES SOBRE SSL. (3 punts)
