@@ -94,3 +94,6 @@ Tingues en compte els permisos a nivell de BD i de SO així com temes de seguret
 ## 1. Documenta i posa exemple de com utilitzar ENGINE CSV.
 ## 2. Cal documentar els passos que has hagut de realitzar per preparar l'exemple: configuracions, instruccions DML, DDL, etc....
 ## 3. Checkpoint: Mostra al professor la configuració que has hagut de realitzar i el seu funcionament.
+
+# WEBGRAFIA
+https://github.com/facebook/mysql-5.6/wiki/getting-started-with-myrocks
