@@ -15,6 +15,7 @@ Es pot fer de 3 maneres diferents:
 - Una es especificant el motor que volem al crear una taula. Per exemple: CREATE TABLE t1 (i INT) ENGINE = INNODB;
 - La segona es mitjançant la variable de sessió d'usuari: @@storage_engine
 - Una altra es modificant el fitxer de configuració my.cnf afegint el següent: default-storage-engine=InnoDB
+- També es pot especificar només per a la sassió en la que estem: SET defaul_storage_engine=InnoDB
 
 ## 3. Com podem saber quin és el motor d'emmagatzematge per defecte?
 
