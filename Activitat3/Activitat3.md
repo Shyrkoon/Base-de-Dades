@@ -11,6 +11,10 @@ Es pot veure utiltizant la comanda SHOW ENGINES\G;
 
 ## 2. Com puc saber quin és el motor d’emmagatzematge per defecte. Mostra com canviar aquest paràmetre de tal manera que les noves taules que creem a la BD per defecte utilitzin el motor MyISAM?
 
+Es pot fer de 3 maneres diferents:
+- Una es especificant el motor que volem al crear una taula. Per exemple: CREATE TABLE t1 (i INT) ENGINE = INNODB;
+- La segona es mitjançant la variable de sessió d'usuari: @@storage_engine
+- Una altra es modificant el fitxer de configuració my.cnf afegint el següent: default-storage-engine=InnoDB
 
 ## 3. Com podem saber quin és el motor d'emmagatzematge per defecte?
 
