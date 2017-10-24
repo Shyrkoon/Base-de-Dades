@@ -18,6 +18,10 @@ Es pot fer de 3 maneres diferents:
 - També es pot especificar només per a la sassió en la que estem: SET defaul_storage_engine=InnoDB
 
 ## 3. Com podem saber quin és el motor d'emmagatzematge per defecte?
+Es pot veure amb l'anterior comanda: SHOW ENGINES\G;
+Hem de buscar quin es el sistema que té un parametre: DEFAULT.
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/foto%20ac1%203.PNG)
 
 
 ## 4. Explica els passos per instal·lar i activar l'ENGINE MyRocks. MyRocks és un motor d'emmagatzematge per MySQL basat en RocksDB (SGBD incrustat de tipus clau-valor).
