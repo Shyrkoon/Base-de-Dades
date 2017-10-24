@@ -25,6 +25,11 @@ Hem de buscar quin es el sistema que té un parametre: DEFAULT.
 
 
 ## 4. Explica els passos per instal·lar i activar l'ENGINE MyRocks. MyRocks és un motor d'emmagatzematge per MySQL basat en RocksDB (SGBD incrustat de tipus clau-valor).
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/rocks1.png)
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/rocks2.png)
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/rock%20install.png)
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/db_create.png)
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/activate_db.png)
 
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/Creating_db_rockdb.png)
 
