@@ -25,7 +25,9 @@ Hem de buscar quin es el sistema que té un parametre: DEFAULT.
 
 
 ## 4. Explica els passos per instal·lar i activar l'ENGINE MyRocks. MyRocks és un motor d'emmagatzematge per MySQL basat en RocksDB (SGBD incrustat de tipus clau-valor).
+
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/Creating_db_rockdb.png)
+
 Checkpoint: Mostra al professor que està instal·lat i posa un exemple de com funciona.
 ## 5. Importa la BD Sakila com a taules MyISAM. Fes els canvis necessaris per importar la BD Sakila perquè totes les taules siguin de tipus MyISAM. 
 Mira quins són els fitxers físics que ha creat, quan ocupen i quines són les seves extensions. Mostra'n una captura de pantalla i indica què conté cada fitxer.
