@@ -97,3 +97,5 @@ Tingues en compte els permisos a nivell de BD i de SO així com temes de seguret
 
 # WEBGRAFIA
 https://github.com/facebook/mysql-5.6/wiki/getting-started-with-myrocks
+https://www.percona.com/doc/percona-server/LATEST/myrocks/install.html#installing-percona-myrocks
+
