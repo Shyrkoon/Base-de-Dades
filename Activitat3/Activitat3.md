@@ -1,8 +1,20 @@
 # Activitat 1. REALITZA I/O RESPON ELS SEGÜENTS APARTATS (1 punts)
 
 ## 1. Indica quins són els motors d’emmagatzematge que pots utilitzar (quins estan actius)? Mostra al comanda utilitzada i el resultat d’aquesta.
+
+Es pot veure utiltizant la comanda SHOW ENGINES\G;
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/foto%20ac1%201.PNG)
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/foto%20ac1%202.PNG)
+
+
 ## 2. Com puc saber quin és el motor d’emmagatzematge per defecte. Mostra com canviar aquest paràmetre de tal manera que les noves taules que creem a la BD per defecte utilitzin el motor MyISAM?
+
+
 ## 3. Com podem saber quin és el motor d'emmagatzematge per defecte?
+
+
 ## 4. Explica els passos per instal·lar i activar l'ENGINE MyRocks. MyRocks és un motor d'emmagatzematge per MySQL basat en RocksDB (SGBD incrustat de tipus clau-valor).
 Checkpoint: Mostra al professor que està instal·lat i posa un exemple de com funciona.
 ## 5. Importa la BD Sakila com a taules MyISAM. Fes els canvis necessaris per importar la BD Sakila perquè totes les taules siguin de tipus MyISAM. 
