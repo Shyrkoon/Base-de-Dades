@@ -25,7 +25,7 @@ Hem de buscar quin es el sistema que té un parametre: DEFAULT.
 
 
 ## 4. Explica els passos per instal·lar i activar l'ENGINE MyRocks. MyRocks és un motor d'emmagatzematge per MySQL basat en RocksDB (SGBD incrustat de tipus clau-valor).
-Hem seguit ![aquesta](https://www.percona.com/doc/percona-server/LATEST/myrocks/install.html#installing-percona-myrocks) guia:
+Hem seguit aquesta guia: https://www.percona.com/doc/percona-server/LATEST/myrocks/install.html#installing-percona-myrocks
 
 
 
