@@ -159,9 +159,10 @@ El 219.
 
  ## CONFIGURACIÓ DEL SERVIDOR PERCONA SERVER PER REALITZAR CONNEXIONS SEGURES SOBRE SSL. (3 punts)
 
+Primer de tot tenim que crear les claus, la pública i la privada, per fer-ho he seguit aquesta ![manual](https://dev.mysql.com/doc/refman/5.7/en/creating-ssl-files-using-openssl.html)
+El que he fet és crear un script amb les comandes que ens mostra en el manual indicat anteriorment. I l'executem:
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/3-mysql-certificated.png)
 
-paginas usadas
 
-https://www.percona.com/blog/2017/06/27/ssl-connections-in-mysql-5-7/
 
 https://dev.mysql.com/doc/refman/5.7/en/using-encrypted-connections.html#using-encrypted-connections-server-side-configuration
