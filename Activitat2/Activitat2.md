@@ -161,7 +161,29 @@ El 219.
 
 Primer de tot tenim que crear les claus, la pública i la privada, per fer-ho he seguit aquesta ![manual](https://dev.mysql.com/doc/refman/5.7/en/creating-ssl-files-using-openssl.html)
 El que he fet és crear un script amb les comandes que ens mostra en el manual indicat anteriorment. I l'executem:
+SCRIPT
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/3.4-script.png)
+
+EXECUCIÓ
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/3-mysql-certificated.png)
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/3.1-certificated.png)
+
+Ara un cop el tenim els certificats/claus, anem a comprovar de que siguin correctes:
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/3.3-ccertificated%20comprovacion.png)
+
+Ara un cop que ho tenim fet, tenim que anar al fitxer de configuració del ervidor MYSQL de Percona i indicar-li els certificats/claus que es utilitzara en cas de fer una connexió via SSL.
+
+[mysqld]
+ssl-ca=ca.pem
+ssl-cert=server-cert.pem
+ssl-key=server-key.pem
+
+Ara que ja tenim configurat el servidor, tenim que enviar els certificats publics a la maquina client:
+
+![captura]()
+
 
 
 
