@@ -133,7 +133,27 @@ LSN (Log Sequence Number)
 L'últim LSN actualitzat a disc
 Quin és l'últim LSN que se li ha fet Checkpoint
 
+Tot això ho podrem trobar executant la comanda:
+
+"SHOW ENGINE INNODB STATUS\G"
+I tenim que anar a buscar l'apartat de LOG
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/bd-5-1.png)
+
+El LSN en el nostre cas és el 2786026
+L'última que ha actualitzat a disc 2786026
+I l'ultima checkpoint que ha fer és el 2786017
+
 ## 3. Com podem mirar el número de pàgines modificades (dirty pages)? I el número total de pàgines?
+
+Utilitzem la mateixa comanda "SHOW ENGINE INNODB STATUS\G".
+En aquest cas tenim que buscar l'apartat de BUFFER POOL AND MEMORY
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/bd-5-2.png)
+
+El numero total de pàgines es el Database pages 405
+
+
 ## 4. Checkpoint: Mostra al professor els canvis realitzats i que la BD continua funcionant.
 # Activitat 6. Implentar BD Distribuïdes. (2 punt)
 
