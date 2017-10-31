@@ -44,6 +44,10 @@ Mira quins són els fitxers físics que ha creat, quan ocupen i quines són les 
 # Activitat 2. INNODB part I. REALITZA ELS SEGÜENTS APARTATS. (2 punts)
 
 ## 1. Importa la BD Sakila com a taules InnoDB. 
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/2.1.png)
+
+
 ## 2. Quin/quins són els fitxers de dades? A on es troben i quin és la seva mida?
 ## 3. Canvia la configuració del MySQL perqurè:
 Canviar la localització dels fitxers del tablespace de sistema per defecte a /discs-mysql/
