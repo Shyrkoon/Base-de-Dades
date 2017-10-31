@@ -182,9 +182,22 @@ ssl-key=server-key.pem
 
 Ara que ja tenim configurat el servidor, tenim que enviar els certificats publics a la maquina client:
 
-![captura]()
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/3.8-envio1.png)
 
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/3.9-envio.png)
 
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/3.10-envio.png)
 
+Ara que ja tenim els certificats en el costat del client, sols ens queda fer la conexió:
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/3.5-cliente%20cert.png)
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/3.6-cliente%20conexion.png)
+
+Ara un cop que estem dintre, si mirem l'status, veurem que estem amb una conexió segura:
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat2/img/3.7-client-status.png)
+
+Per fer tot aquesta part, he seguit el manual principal següent:
 
 https://dev.mysql.com/doc/refman/5.7/en/using-encrypted-connections.html#using-encrypted-connections-server-side-configuration
