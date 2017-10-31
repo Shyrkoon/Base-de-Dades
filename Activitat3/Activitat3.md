@@ -41,6 +41,26 @@ Checkpoint: Mostra al professor que està instal·lat i posa un exemple de com f
 ## 5. Importa la BD Sakila com a taules MyISAM. Fes els canvis necessaris per importar la BD Sakila perquè totes les taules siguin de tipus MyISAM. 
 Mira quins són els fitxers físics que ha creat, quan ocupen i quines són les seves extensions. Mostra'n una captura de pantalla i indica què conté cada fitxer.
 
+Nosaltres ho hem fet subtituint tots els ENGINE=InnoDB que hi ha al codi de sakila-schema.
+Primer ens hem de baixar el codi.
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/foto%20ac1%205%201.PNG)
+
+Un cop que el tenim, podem utilitzar qualsevol editor de textos que tingui una eina de "Buscar y Substituir".
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/foto%20ac1%205%203.PNG)
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/foto%20ac1%205%204.PNG)
+
+Ho guardem i importem la base de dades al CentOS.
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/foto%20ac1%205%205.PNG)
+
+per últim utilitzem la comanda: SOURCE (ruta)/sakila-schema.sql desde el nostre mysql per importar la base de dades de sakila.
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/foto%20ac1%205%206.PNG)
+
+
 # Activitat 2. INNODB part I. REALITZA ELS SEGÜENTS APARTATS. (2 punts)
 
 ## 1. Importa la BD Sakila com a taules InnoDB. 
