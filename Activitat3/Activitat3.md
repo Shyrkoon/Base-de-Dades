@@ -66,7 +66,7 @@ Amb la comanda SHOW TABLE STATUS FROM sakila; podem veure que les taules s'han c
 
 Per cada taula, es creen al sistema 3 fitxers diferents:
 - .MYD: Es on es guarden les dades de la taula
-- .MYI: Són els idexos de la taula
+- .MYI: Són els índex de la taula
 - .frm: És el format de la taula
 
 Podem veure que son de MyISAM per el .MY de l'extensió. Si fos InnoDB seria .ibd.
