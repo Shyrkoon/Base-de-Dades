@@ -64,18 +64,6 @@ Amb la comanda SHOW TABLE STATUS FROM sakila; podem veure que les taules s'han c
 
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/foto%20ac1%205%207.PNG)
 
-Per cada taula, es creen al sistema 3 fitxers diferents:
-- .MYD: Es on es guarden les dades de la taula
-- .MYI: Són els índex de la taula
-- .frm: És el format de la taula
-
-Podem veure que son de MyISAM per el .MY de l'extensió. Si fos InnoDB seria .ibd.
-
-![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/foto%20ac1%205%208.PNG)
-
-Aqui es pot veure la mida de cada fitxer. El fitxer on es guarda la informació està vuit ja que no tenim dades a les taules.
-
-![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/foto%20ac1%205%209.PNG)
 
 # Activitat 2. INNODB part I. REALITZA ELS SEGÜENTS APARTATS. (2 punts)
 
@@ -86,9 +74,7 @@ Aqui es pot veure la mida de cada fitxer. El fitxer on es guarda la informació 
 
 ## 2. Quin/quins són els fitxers de dades? A on es troben i quin és la seva mida?
 
-Els fitxers de la BD es troben normalment a la ruta "/var/lib/mysql/<nom de la base de dades>"
-  
-
+Tenemos que encontrar la direccion indicada en el datadir, que esta puesta en el my.cnf(en linux y centos). En nuestro caso en datadir indicaba el /var/lib/mysql , dentro de la ruta habia una carpeta que se llama "Activitat 3"(el no
 ## 3. Canvia la configuració del MySQL perqurè:
 Canviar la localització dels fitxers del tablespace de sistema per defecte a /discs-mysql/
 Tinguem dos fitxers corresponents al tablespace de sistema.
