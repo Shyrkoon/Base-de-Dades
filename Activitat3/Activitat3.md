@@ -132,7 +132,7 @@ Situa aquests fitxers (de manera relativa a la localització per defecte) en una
 LSN (Log Sequence Number)
 L'últim LSN actualitzat a disc
 Quin és l'últim LSN que se li ha fet Checkpoint
-## 2. Proposa un exemple a on es vegi l'ús del redolog
+
 ## 3. Com podem mirar el número de pàgines modificades (dirty pages)? I el número total de pàgines?
 ## 4. Checkpoint: Mostra al professor els canvis realitzats i que la BD continua funcionant.
 # Activitat 6. Implentar BD Distribuïdes. (2 punt)
