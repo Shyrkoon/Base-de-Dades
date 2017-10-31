@@ -64,6 +64,18 @@ Amb la comanda SHOW TABLE STATUS FROM sakila; podem veure que les taules s'han c
 
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/foto%20ac1%205%207.PNG)
 
+Per cada taula, es creen al sistema 3 fitxers diferents:
+- .MYD: Es on es guarden les dades de la taula
+- .MYI: Són els idexos de la taula
+- .frm: És el format de la taula
+
+Podem veure que son de MyISAM per el .MY de l'extensió. Si fos InnoDB seria .ibd.
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/foto%20ac1%205%208.PNG)
+
+Aqui es pot veure la mida de cada fitxer. El fitxer on es guarda la informació està vuit ja que no tenim dades a les taules.
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/foto%20ac1%205%209.PNG)
 
 # Activitat 2. INNODB part I. REALITZA ELS SEGÜENTS APARTATS. (2 punts)
 
