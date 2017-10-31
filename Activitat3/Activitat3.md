@@ -152,6 +152,7 @@ En aquest cas tenim que buscar l'apartat de BUFFER POOL AND MEMORY
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/bd-5-2.png)
 
 El numero total de pàgines es el Database pages 405
+Modified db pages són les pàgines pendents, en el meu cas no en tinc cap pendent.
 
 
 ## 4. Checkpoint: Mostra al professor els canvis realitzats i que la BD continua funcionant.
