@@ -90,7 +90,16 @@ Si entrem a la carpeta de la base de dades de sakila podem veure tots els fitxer
 
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/foto%20ac2%202%201.PNG)
 
-Hem d'encontrar la dirrecio indicat en el datadir que esta situada en el my.conf(en llinux i centOS). En el nostre casa el datadir indica /var/lib/mysql. 
+Podem veure que cada taula té un fitxer per a les dades i un per al format de la taula.
+
+Aqui podem veure que el ocupa cada fitxer:
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/foto%20ac2%202%202.PNG)
+
+També estan el fitxers d'índex i cache.
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/foto%20ac2%202%203.PNG)
+
 
 ## 3. Canvia la configuració del MySQL perqurè:
 Canviar la localització dels fitxers del tablespace de sistema per defecte a /discs-mysql/
