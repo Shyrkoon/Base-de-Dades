@@ -96,7 +96,7 @@ Aqui podem veure que el ocupa cada fitxer:
 
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/foto%20ac2%202%202.PNG)
 
-També estan el fitxers d'índex i cache.
+També estan el fitxers d'índex i cache, tots ells amb una mida predefinida.
 
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/foto%20ac2%202%203.PNG)
 
