@@ -56,9 +56,13 @@ Ho guardem i importem la base de dades al CentOS.
 
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/foto%20ac1%205%205.PNG)
 
-per últim utilitzem la comanda: SOURCE (ruta)/sakila-schema.sql desde el nostre mysql per importar la base de dades de sakila.
+Per últim utilitzem la comanda: SOURCE (ruta)/sakila-schema.sql desde el nostre mysql per importar la base de dades de sakila.
 
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/foto%20ac1%205%206.PNG)
+
+Amb la comanda SHOW TABLE STATUS FROM sakila; podem veure que les taules s'han creat amb MyISAM.
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/foto%20ac1%205%207.PNG)
 
 
 # Activitat 2. INNODB part I. REALITZA ELS SEGÜENTS APARTATS. (2 punts)
