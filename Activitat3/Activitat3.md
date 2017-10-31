@@ -71,7 +71,7 @@ Per cada taula es creen 3 fitxers diferens:
 
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/foto%20ac1%205%208.PNG)
 
-Aquí podem veure el que ocupa cada und dels fitxers. El de les dades està vuit ja que no tenim dades a cap taula.
+Aquí podem veure el que ocupa cada un dels fitxers. El de les dades està buit ja que no tenim dades a cap taula.
 
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/foto%20ac1%205%209.PNG)
 
@@ -85,7 +85,8 @@ Aquí podem veure el que ocupa cada und dels fitxers. El de les dades està vuit
 
 ## 2. Quin/quins són els fitxers de dades? A on es troben i quin és la seva mida?
 
-Tenemos que encontrar la direccion indicada en el datadir, que esta puesta en el my.cnf(en linux y centos). En nuestro caso en datadir indicaba el /var/lib/mysql , dentro de la ruta habia una carpeta que se llama "Activitat 3"(el no
+Hem d'encontrar la dirrecio indicat en el datadir que esta situada en el my.conf(en llinux i centOS). En el nostre casa el datadir indica /var/lib/mysql. 
+
 ## 3. Canvia la configuració del MySQL perqurè:
 Canviar la localització dels fitxers del tablespace de sistema per defecte a /discs-mysql/
 Tinguem dos fitxers corresponents al tablespace de sistema.
