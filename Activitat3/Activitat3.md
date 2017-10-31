@@ -85,6 +85,11 @@ Aquí podem veure el que ocupa cada un dels fitxers. El de les dades està buit 
 
 ## 2. Quin/quins són els fitxers de dades? A on es troben i quin és la seva mida?
 
+Per defecte mysql guarda els fitxers a: /var/lib/mysql/(nom de la base de dades).
+Si entrem a la carpeta de la base de dades de sakila podem veure tots els fitxers que té:
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/foto%20ac2%202%201.PNG)
+
 Hem d'encontrar la dirrecio indicat en el datadir que esta situada en el my.conf(en llinux i centOS). En el nostre casa el datadir indica /var/lib/mysql. 
 
 ## 3. Canvia la configuració del MySQL perqurè:
