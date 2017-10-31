@@ -64,6 +64,17 @@ Amb la comanda SHOW TABLE STATUS FROM sakila; podem veure que les taules s'han c
 
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/foto%20ac1%205%207.PNG)
 
+Per cada taula es creen 3 fitxers diferens:
+- .MYI: En aquest fitxer és guarden els fitxers d'índex.
+- .MYD: Aquí es on es guarden les dades de la taula.
+- .frm: És on es guarda el format de la taula.
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/foto%20ac1%205%208.PNG)
+
+Aquí podem veure el que ocupa cada und dels fitxers. El de les dades està vuit ja que no tenim dades a cap taula.
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/foto%20ac1%205%209.PNG)
+
 
 # Activitat 2. INNODB part I. REALITZA ELS SEGÜENTS APARTATS. (2 punts)
 
