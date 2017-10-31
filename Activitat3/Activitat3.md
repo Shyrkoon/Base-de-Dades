@@ -73,6 +73,10 @@ Amb la comanda SHOW TABLE STATUS FROM sakila; podem veure que les taules s'han c
 
 
 ## 2. Quin/quins són els fitxers de dades? A on es troben i quin és la seva mida?
+
+Els fitxers de la BD es troben normalment a la ruta "/var/lib/mysql/<nom de la base de dades>"
+  
+
 ## 3. Canvia la configuració del MySQL perqurè:
 Canviar la localització dels fitxers del tablespace de sistema per defecte a /discs-mysql/
 Tinguem dos fitxers corresponents al tablespace de sistema.
