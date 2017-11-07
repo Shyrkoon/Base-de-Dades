@@ -107,8 +107,8 @@ També estan el fitxers d'índex i cache, tots ells amb una mida predefinida.
 - Tots dos han de tenir la mateixa mida inicial (1MB) 
 - El tablespace ha de creixer de 1MB en 1MB.
 - Situa aquests fitxers (de manera relativa a la localització per defecte) en una nova localització simulant el següent:
--- /discs-mysql/disk1/primer fitxer de dades → simularà un disc dur
--- /discs-mysql/disk2/segon fitxer de dades → simularà un segon disc dur.
+ /discs-mysql/disk1/primer fitxer de dades → simularà un disc dur
+ /discs-mysql/disk2/segon fitxer de dades → simularà un segon disc dur.
 ## 4. Checkpoint: Mostra al professor els canvis realitzats i que la BD continua funcionant.
 
 
