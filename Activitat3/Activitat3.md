@@ -109,6 +109,31 @@ També estan el fitxers d'índex i cache, tots ells amb una mida predefinida.
 - Situa aquests fitxers (de manera relativa a la localització per defecte) en una nova localització simulant el següent:
  /discs-mysql/disk1/primer fitxer de dades → simularà un disc dur
  /discs-mysql/disk2/segon fitxer de dades → simularà un segon disc dur.
+ 
+
+Primer hem d'escriure la següent configuració al fitxer de configuració del mysql.
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/foto%20ac2%203%201.PNG)
+
+Un cop guardat creem les carpetes on guardarem els nous arxius.
+
+Probablement ens donarà un error quan iniciem el servei. Si miren als fitxers .log del mysql ens dirà que hem de borrar el fitxers logfile del mysql.
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/foto%20ac2%203%203.PNG)
+
+Ara reiniciem el servei per tal de que tots els canvin tinguin efecte.
+ 
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/foto%20ac2%203%202.PNG)
+
+Si ens dona problemes, podem probar a desactivar el selinux.
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/foto%20ac2%203%204.PNG)
+
+Per acabar comprovem que s'han creat automàticament 2 fitxers, un a cada carpeta.
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/foto%20ac2%203%205.PNG)
+
+
 ## 4. Checkpoint: Mostra al professor els canvis realitzats i que la BD continua funcionant.
 
 
