@@ -174,6 +174,23 @@ Tingues en compte els permisos a nivell de BD i de SO així com temes de seguret
 # Activitat 7. Storage Engine CSV (1 punt)
 ## 1. Documenta i posa exemple de com utilitzar ENGINE CSV.
 ## 2. Cal documentar els passos que has hagut de realitzar per preparar l'exemple: configuracions, instruccions DML, DDL, etc....
+
+Primer de tot tenim que mirar si està actiu l'ENGINE del CSV en el nostre MySql, podem fer-ho utilitzant:
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/bdex64.png)
+
+Ara el que tenim que fer és crear la BD dins del nostre SQL, nosaltres hem creat la BD csv.
+Ara un cop creat el que tenim que fer és crear la taula. Important de que els camps siguin "Not Null".
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/bdex61.png)
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/bdex62.png)
+
+Ara el que fem és introduir dades, i aquestes dades ho podrem veure en l'arxiu de la base de dades en format CSV.
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/bdex63.png)
+
+A part el que haviem fet era importar desde un arxiu CSV algunes dades.
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/bdex65.png)
+
+
 ## 3. Checkpoint: Mostra al professor la configuració que has hagut de realitzar i el seu funcionament.
 
 
