@@ -151,6 +151,12 @@ Ara podem fer la seguent comanda a dins del Mysql per activar el file per table 
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/foto%20ac3%201.PNG)
 
 Ara que ja està activat podem probar com funciona. 
+Amb el següent script he passat una base de dades de MyISAM a innodb per probar el funcionament.
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/foto%20ac3%203.PNG)
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/foto%20ac3%204.PNG)
+
 A les següents taules que afegim a la base de dades o les que modifiquem tindrien que estar cada una en una carpeta amb el nom que tenen.
 
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/foto%20ac3%205.PNG)
