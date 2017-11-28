@@ -141,6 +141,21 @@ Per acabar comprovem que s'han creat automàticament 2 fitxers, un a cada carpet
 
 ## 1. Partint de l'esquema anterior configura el Percona Server perquè cada taula generi el seu propi tablespace en una carpeta anomenada tspaces (aquesta pot estar situada a on vulgueu). 
 ## 1. Indica quins són els canvis de configuració que has realitzat.
+
+Primer hem de modificar la següent configuració:
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/foto%20ac3%202.PNG)
+
+Ara podem fer la seguent comanda a dins del Mysql per activar el file per table o reiniciar el servei.
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/foto%20ac3%201.PNG)
+
+Ara que ja està activat podem probar com funciona. 
+A les següents taules que afegim a la base de dades o les que modifiquem tindrien que estar cada una en una carpeta amb el nom que tenen.
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/foto%20ac3%205.PNG)
+
+
 ## 2. Després del canvi què ha passat amb els fitxers que contenien les dades de la BD de Sakila? Fes les captures necesàries per complementar la resposta.
 
 # Activitat 4. INNODB part III. REALITZA ELS SEGÜENTS APARTATS. (1 punts)
