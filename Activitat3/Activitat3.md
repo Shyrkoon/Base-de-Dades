@@ -173,6 +173,8 @@ A les següents taules que afegim a la base de dades o les que modifiquem tindri
 
 ## 3. Comprova que pots realitzar operacions DML a les taules dels dos tablespaces.
 
+A continuació es mostra com canvio el tablespace d'una taula e insereixo molts registres per veure si canvia la mida de ts1.ibd:
+
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/img%20ac4%205.PNG)
 
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/img%20ac4%209.PNG)
@@ -184,7 +186,29 @@ A les següents taules que afegim a la base de dades o les que modifiquem tindri
 
 ## 4. Quines comandes i configuracions has realitzat per fer els dos apartats anteriors?
 
+Primer he creat les dues carpetes.
 
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/img%20ac4%201.PNG)
+
+A continuació he canviat els permisos de les carpetes que he creat ja que pot donar problemes a l'hora de crear els tablespaces.
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/img%20ac4%203.PNG)
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/img%20ac4%202.PNG)
+
+Ara hem de crear els tablespaces.
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/img%20ac4%204.PNG)
+
+Per últim hem de canviar el tablespace de cada taula per el nou que acabem de crear.
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/img%20ac4%205.PNG)
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/img%20ac4%206.PNG)
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/img%20ac4%207.PNG)
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/img%20ac4%208.PNG)
 
 
 ## 5. Checkpoint: Mostra al professor els canvis realitzats i que la BD continua funcionant
