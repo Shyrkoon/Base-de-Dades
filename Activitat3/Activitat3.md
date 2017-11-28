@@ -168,9 +168,30 @@ A les següents taules que afegim a la base de dades o les que modifiquem tindri
 
 ## 1. Crea un tablespace anomenat 'ts1' situat a /discs-mysql/disc1/ i col·loca les taules actor, address i category de la BD Sakila.
 ## 2. Crea un altre tablespace anomenat 'ts2' situat a /discs-mysql/disc2/ i col·loca-hi la resta de taules.
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/img%20ac4%201.PNG)
+
 ## 3. Comprova que pots realitzar operacions DML a les taules dels dos tablespaces.
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/img%20ac4%205.PNG)
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/img%20ac4%209.PNG)
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/img%20ac4%2010.PNG)
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/img%20ac4%2011.PNG)
+
+
 ## 4. Quines comandes i configuracions has realitzat per fer els dos apartats anteriors?
+
+
+
+
 ## 5. Checkpoint: Mostra al professor els canvis realitzats i que la BD continua funcionant
+
+
+
+
 
 # Activitat 5. REDOLOG. REALITZA ELS SEGÜENTS APARTATS. (2 punt)
 
