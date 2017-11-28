@@ -159,10 +159,10 @@ Amb el següent script he passat una base de dades de MyISAM a innodb per probar
 
 A les següents taules que afegim a la base de dades o les que modifiquem tindrien que estar cada una en una carpeta amb el nom que tenen.
 
+## 2. Després del canvi què ha passat amb els fitxers que contenien les dades de la BD de Sakila? Fes les captures necesàries per complementar la resposta.
+
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat3/img/foto%20ac3%205.PNG)
 
-
-## 2. Després del canvi què ha passat amb els fitxers que contenien les dades de la BD de Sakila? Fes les captures necesàries per complementar la resposta.
 
 # Activitat 4. INNODB part III. REALITZA ELS SEGÜENTS APARTATS. (1 punts)
 
