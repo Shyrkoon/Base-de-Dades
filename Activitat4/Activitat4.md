@@ -33,9 +33,17 @@ Primer hem d'assignar un server id diferent de la màquina master.
 
 ![Captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat4/img/cap6%20slave.png)
 
-Com que les màquines han de tenir la mateixa informació per començar amb la replica, importem les bases de dades que té la màquina master.
+Desde la màquina master, enviem un backup de la base de dades a la màquina slave.
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat4/img/cap16.png)
+
+Com que les màquines han de tenir la mateixa informació per començar amb la replica, importem les bases de dades que acabem d'enviar.
 
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat4/img/cap9.png)
+
+Obrim l'arxiu que fa de backup de la base de dades i busquem la línia on ens indica quin és l'últim log binari que té el master i en quina posició s'ha quedat. Normalment és troba per el principi d'aquest arxiu.
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat4/img/cap17.png)
 
 Ara hem d'executar les següents comandes, les quals tenen informació de la màquina master.
 
