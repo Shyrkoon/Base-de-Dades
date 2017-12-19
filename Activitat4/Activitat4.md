@@ -65,4 +65,6 @@ Creem una taula, comprovem que esta en el servidor slave i creem una segona taul
 
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat4/img/cap15.png)
 
+Nosaltres ens vam trobar amb un problema de replicació ja que com les màquines eren la mateixa (clonada) el mysql tenía el mateix id en els 2 servidors. Per tal de canviar un dels dos hem de borrar un arxiu que esta situat a /var/lib/mysql que es diu auto.cnf. Aquest guarda un ID per servidor. Per fer que es torni a crear hem de borrar aquest arxiu i reiniciar el servei.
 
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat4/img/25.png)
