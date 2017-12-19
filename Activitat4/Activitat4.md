@@ -28,12 +28,33 @@ Per últim executem la comanda flush logs i comprovem que estan activats i creat
 
 ## Slave
 
+A continuació configurarem l'slave.
+Primer hem d'assignar un server id diferent de la màquina master.
 
 ![Captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat4/img/cap6%20slave.png)
 
+Com que les màquines han de tenir la mateixa informació per començar amb la replica, importem les bases de dades que té la màquina master.
 
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat4/img/cap9.png)
 
-![Captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat4/img/cap7%20connection.png)
+Ara hem d'executar les següents comandes, les quals tenen informació de la màquina master.
 
+![Captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat4/img/cap10.png)
+
+I executar la comanda start slave:
+
+![Captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat4/img/cap12.png)
+
+Per comprovar si la màquina slave està ben configurada i està replicant del master ho podem comprovar amb la comanda show slave status \G;
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat4/img/cap13.png)
+
+Ara comprovarem si la replica funciona creant unes taules en el servidor master.
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat4/img/cap14.png)
+
+Creem una taula, comprovem que esta en el servidor slave i creem una segona taula en el master i instantaneament comprovem que també s'ha creat en el servidor slave.
+
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat4/img/cap15.png)
 
 
