@@ -73,27 +73,27 @@ Nosaltres ens vam trobar amb un problema de replicació ja que com les màquines
 
 ## Master
 
-![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat4/img/cap26.png)
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat4/img/26.png)
 
 ## Slave
 
-![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat4/img/cap27.png)
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat4/img/27.png)
 
-![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat4/img/cap18.png)
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat4/img/18.png)
 
-![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat4/img/cap19.png)
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat4/img/19.png)
 
-![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat4/img/cap20.png)
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat4/img/20.png)
 
 
 
-![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat4/img/cap21.png)
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat4/img/21.png)
 
-![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat4/img/cap22.png)
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat4/img/22.png)
 
-![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat4/img/cap23.png)
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat4/img/23.png)
 
-![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat4/img/cap24.png)
+![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat4/img/24.png)
 
 
 
