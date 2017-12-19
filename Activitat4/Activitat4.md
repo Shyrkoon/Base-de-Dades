@@ -73,23 +73,36 @@ Nosaltres ens vam trobar amb un problema de replicació ja que com les màquines
 
 ## Master
 
+En el servidor que fa de Master tenim que habilitat el GTID amb la següent configuració, amb la opció de "enforce-gtid-consistency", que vol dir que fins que el Master no hagi fet el commit i que les dades estiguin dins de la BBDD el Slave no replicara la informació.
+A part, també tindrem que tenir habilitat el binari log, que noslatres ja el tenim habilitat de l'activitat anterior.
+
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat4/img/26.png)
 
 ## Slave
 
+En el servidor que fara d'Slave, també tenim que habilitar el GTID.
+
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat4/img/27.png)
 
+Ara que ja el tenim actiu, reiniciem el servidor perquè hagafi les configuracions i ara el que farem sera desactivar totes les replicacions que tingui el servidor Slave. I posarem les noves dades del servidor Master a replicar.
+
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat4/img/18.png)
+
+Ara un cop que el tenim connectat, habilitem el proces de replica amb "start slave;" i també comprovem de que el proces estigui OK.
 
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat4/img/19.png)
 
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat4/img/20.png)
 
-
+Ara el que tenim que fer per asegurarnos de que esta llegint les dades correctament del servidor Master, és intriduir dades en la BBDD Master. En aquest cas hem creat la taula "c".
 
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat4/img/21.png)
 
+Ara mirem que en el servidor Slave també l'ha creat
+
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat4/img/22.png)
+
+Ara si tornem a executar l'estat de l'Slave veurem que al final ens indica l'últim ID que s'ha obtingut del Master i ell també ho ha executat.
 
 ![captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat4/img/23.png)
 
