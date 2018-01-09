@@ -9,4 +9,4 @@ INDEX
 
 [Activitat 4](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat4/Activitat4.md)
 
-[activitat 5](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat5/Activitat5.md)
+[Activitat 5](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat5/Activitat5.md)
