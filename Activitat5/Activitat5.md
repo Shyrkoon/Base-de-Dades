@@ -28,11 +28,17 @@ Anem a configurar el fitxer de configuració del Node Princpipal:
 
 ![Captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat5/img/c7.png)
 
-
+Un cop configurat el node 1, configurem la resta de nodes amb el els mteixos paràmetres.
+Encenem el servei en l node prinicpal amb la comanda: systemctl start mysql@bootstrap.service
+La resta de servidor tenim que fer-ho amb systemctl start mysql
 
 ![Captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat5/img/c8.png)
 
+Un cop que ho tenim configurat ja podrem veure dins del Mysql que ja ens han sincronitzat i ja tenim el Cluster montat.
+
 ![Captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat5/img/c9.png)
+
+Ara en 
 
 ![Captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat5/img/c10.png)
 
