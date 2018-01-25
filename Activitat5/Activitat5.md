@@ -20,13 +20,15 @@ Ara el que tenim que fer és desactivar el Firewall, per tal que no rebutgi les 
 
 ![Captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat5/img/c5.png)
 
-Una vegada que ja ho tenim fet, anem a configurar el fitxer de configuració del Node Princpipal:
+Si ens fixem en la següent captura veiem que el cluster esta format per ell mateix.
 
 ![Captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat5/img/c6.png)
 
-Un cop que ja tenim e
+Anem a configurar el fitxer de configuració del Node Princpipal:
 
 ![Captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat5/img/c7.png)
+
+
 
 ![Captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat5/img/c8.png)
 
