@@ -32,13 +32,13 @@ Un cop configurat el node 1, configurem la resta de nodes amb el els mteixos par
 Encenem el servei en l node prinicpal amb la comanda: systemctl start mysql@bootstrap.service
 La resta de servidor tenim que fer-ho amb systemctl start mysql
 
-![Captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat5/img/c8.png)
-
 Un cop que ho tenim configurat ja podrem veure dins del Mysql que ja ens han sincronitzat i ja tenim el Cluster montat.
 
-![Captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat5/img/c9.png)
+![Captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat5/img/c8.png)
 
-Ara en 
+Per saber i funciona correctament el nostre cluster, el que fem és crear alguna cosa dins de la BBDD, a part també el que fem és aturar qualsevol servidor del cluster i afegim més dades en la BBDD. Quan el tornem a engegar, veurem que es sincronitza amb totes les dades de la resta dels servidors.
+
+![Captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat5/img/c9.png)
 
 ![Captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat5/img/c10.png)
 
