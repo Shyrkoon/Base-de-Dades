@@ -12,13 +12,15 @@ Ara amb la següent comanda instal·larem la nostre BBDD
 
 ![Captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat5/img/c3.png)
 
-Ara el que tenim que fer és desactivar el Firewall, per tal que no rebutgi les peticions.
 
 ![Captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat5/img/c4.png)
 
-Una vegada que ja ho tenim fet, anem a configurar el fitxer de configuració del Node Princpipal:
+
+Ara el que tenim que fer és desactivar el Firewall, per tal que no rebutgi les peticions.
 
 ![Captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat5/img/c5.png)
+
+Una vegada que ja ho tenim fet, anem a configurar el fitxer de configuració del Node Princpipal:
 
 ![Captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat5/img/c6.png)
 
