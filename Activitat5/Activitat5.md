@@ -42,4 +42,7 @@ Per saber i funciona correctament el nostre cluster, el que fem és crear alguna
 
 ![Captura](https://github.com/Shyrkoon/Base-de-dades/blob/master/Activitat5/img/c10.png)
 
+### Que es el bootstrapping i el spli-brain
 
+El bootstrapping és la seqüencia d'arrancada. En el cas de la SQL, el que es fa és establir primer un servidor primari i desprès es sincronitzen la resta de servidors, que es replicaran tot del servidor primari. 
+L'split-brain e quan un o més nodes es queden incomunicades de la resta, el conjunt de nodes que encara en tenen comunicació entre ells formen el nou cluster. I la resta de nodes que estan incomunicats intentaran ser un cluster enter.
